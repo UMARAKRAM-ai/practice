@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2? family=Inter: wght@400; 500; 600; 700; 800; 900&display=swap');
+
+* {
+margin: 0; 
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+display: flex;
+justify-content: space-around;
+font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    height: 100px;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    font-size: 1.2rem;
+    align-items: center;
+ }
+
+ ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+ }
+
+
+ li a::after{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: #FF6633;
+    transition: all .5s;
+ }
+
+ li a:hover::after{
+    width: 100%;
+ }
+
+
+ 
+
+
+header {
+    height: 100vh;
+    position: relative;
+    background: linear-gradient(rgba(34, 34, 34, 0.6),rgba(34, 34, 34, 0.6)), url(images/3D_Animation_Style_close_up_shot_cute_boy_orange_clothes_Black_1.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    
+}
+
+.body {
+        font-family: 'Inter', sans-serif;
+    }
+    nav {
+    font-size: 20px;
+    font-weight: 700; display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+    }
+    h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+    line-height: 1.05;
+    }
+    h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+    }
+    p {
+        
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 48px;
+}
+
+.btn:link, .btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(199, 0, 0);
+    color: #EAF8FF;
+    text-decoration: none;
+    display: inline-block; 
+    padding: 16px 32px; 
+    border-radius: 25px;
+    }
+    .btn:link:hover,
+    .btn:visited:hover{
+    opacity: 0.8;
+    }
+
+
+    .header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 3rem;
+    margin-top: 2.5rem;
+    }
+    .hdr-conatiner-inner {
+        width: 50%;
+    }
+
